@@ -1,0 +1,29 @@
+# Environment variables / secrets
+.env
+.env.*
+!.env.example
+
+# Virtual environments
+myenv/
+venv/
+.venv/
+env/
+
+# Python cache
+__pycache__/
+*.py[cod]
+
+# Jupyter
+.ipynb_checkpoints/
+
+# Database files (local chat history)
+*.db
+*.sqlite
+*.sqlite3
+
+# IDE files
+.vscode/
+
+# OS files
+.DS_Store
+Thumbs.db
